@@ -9,7 +9,7 @@ namespace KSGWeb
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Component/jquery/jquery-{version}.js"));
+                        "~/Component/jquery/jquery-{version}.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -17,8 +17,8 @@ namespace KSGWeb
                         "~/Scripts/modernizr-*"));*/
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Component/Bootstrap/js/bootstrap.js",
-                      "~/Component/Bootstrap/js/poper.js"
+                      "~/Component/Bootstrap/js/bootstrap.min.js",
+                      "~/Component/Bootstrap/js/poper.min.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Compoent/css").Include(
