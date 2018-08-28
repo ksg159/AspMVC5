@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSGWeb", "KSGWeb\KSGWeb.csproj", "{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{886CF4EA-94DF-49C4-8BC5-9DAEE8AE8CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{BFE4EA86-04EB-4AAD-BEC0-C4DC6849C4B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer", "{2442D8E2-71CA-4258-92FD-86253FBB704A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{2EA26849-34F0-4D99-BEDB-1E88DB2A5201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB} = {886CF4EA-94DF-49C4-8BC5-9DAEE8AE8CCF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71002A0D-B276-4A76-A959-DD02DCC6F725}
+	EndGlobalSection
+EndGlobal

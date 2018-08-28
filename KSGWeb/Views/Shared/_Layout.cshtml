@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Compoent/css")
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top">
+        <a class="navbar-brand" href="/Home/Contact">
+            <span class="text-primary">KSG</span>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <button class="btn" id="sidebartogglebutton">
+                        <span>☰</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="sidebar">
+            @RenderPage("~/Views/Shared/SideBar.cshtml")
+        </div>
+        <div class="content">
+            <div class="render">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        $(function () {
+            $('#sidebartogglebutton').click(function () {
+                $('.sidebar').toggleClass('active');
+                $('.content').toggleClass('active');
+            })
+        });
+    </script>
+</body>
+
+</html>

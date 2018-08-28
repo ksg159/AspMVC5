@@ -1,0 +1,77 @@
+﻿body {
+    overflow-x:hidden;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Custom CSS Start*/
+.wrapper{
+    display:flex;
+    width:100%;
+}
+
+.sidebar{
+    position:fixed;
+    width:250px;
+    top:0;
+    left:0;
+    height:100vh;
+    transition: all 0.3s;
+    padding:80px 0px 0px;
+    background:#808080;
+    border-right:1px solid white;
+}
+
+.sidebar.active{
+    width:0px;
+}
+
+.content {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content.active{
+    width:100%;
+}
+
+@media(max-width:768px){
+    .sidebar{
+        margin-left: -250px;
+    }
+    .content{
+        width:100%;
+    }
+}
+
+.navbar{
+    border-bottom:1px solid black;
+}
+
+.render{
+    margin:80px 0px 0px 0px;
+}
+
+/* Custom CSS End*/
