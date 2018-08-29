@@ -15,8 +15,8 @@ namespace KSGWeb.Controllers
 
         public ActionResult About()
         {
-            
-            
+
+
             return View();
         }
 
