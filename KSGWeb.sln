@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{2EA26849-34F0-4D99-BEDB-1E88DB2A5201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{747531BC-3EED-438C-97FE-64C5261A7EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747531BC-3EED-438C-97FE-64C5261A7EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747531BC-3EED-438C-97FE-64C5261A7EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747531BC-3EED-438C-97FE-64C5261A7EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747531BC-3EED-438C-97FE-64C5261A7EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C5A38DEB-7343-4936-8DCA-F3BC32F296CB} = {886CF4EA-94DF-49C4-8BC5-9DAEE8AE8CCF}
+		{747531BC-3EED-438C-97FE-64C5261A7EBA} = {2EA26849-34F0-4D99-BEDB-1E88DB2A5201}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71002A0D-B276-4A76-A959-DD02DCC6F725}
